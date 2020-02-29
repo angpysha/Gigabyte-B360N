@@ -649,11 +649,11 @@
 			<key>BuiltinTextRenderer</key>
 			<false/>
 			<key>ConsoleBehaviourOs</key>
-			<string>Graphics</string>
+			<string>ForceGraphics</string>
 			<key>ConsoleBehaviourUi</key>
-			<string>Text</string>
+			<string>ForceText</string>
 			<key>ConsoleMode</key>
-			<string>Max</string>
+			<string></string>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideSelf</key>
@@ -825,7 +825,7 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02T14Y8J1GJ</string>
 			<key>SystemUUID</key>
 			<string>338E9017-ADEE-437D-9453-1353B1E4721E</string>
 		</dict>
