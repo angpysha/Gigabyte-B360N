@@ -18,12 +18,16 @@
 
 ## BIOS Settings
 
-- SVM Mode -> Disabled (Can be enabled post-install)
-- SATA Mode -> AHCI
-- IOMMU -> Disabled
-- XHCI Hand-off -> Enabled
-- Boot\CSM -> Disabled
-- Secure Boot -> Other OS
+Disabled:
+- Fast Boot
+- VT-d
+- CSM
+
+Enabled:
+- VT-x
+- Above 4G decoding
+- Hyper-Threading
+- OS type: Windows 8.1/10 UEFI Mode
 
 ## Guides & Links
 
