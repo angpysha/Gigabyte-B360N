@@ -5,7 +5,7 @@
 ## System Specifications
 
 - **OS:** MacOS Mojave 10.14.6
-- **Bootloader:** OpenCore 0.5.5
+- **Bootloader:** OpenCore 0.5.7
 - **Motherboard:** Gigabyte B360N Wifi
   * Ethernet: 1x Intel I219-V7 Gigabit Ethernet + 1x Intel I211 Gigabit Ethernet
   * Audio Codec: Realtek ALC887 (Layout 1)
@@ -15,15 +15,16 @@
 - **GPU:** Sapphire RX 570 ITX 8GB
 - **RAM:** Corsair Vengeance LPX 16GB 2x8GB DDR4 2666Mhz
 - **STORAGE:** Adata XPG SX8200 PRO 512GB M.2 NVMe
+- **WIFI & BLUETOOTH:** BCM94360CS2 + NGFF M.2 Adapter
 
 ## BIOS Settings
 
-Disabled:
+**Disabled:**
 - Fast Boot
 - VT-d
 - CSM
 
-Enabled:
+**Enabled:**
 - VT-x
 - Above 4G decoding
 - Hyper-Threading
@@ -31,7 +32,7 @@ Enabled:
 
 ## Guides & Links
 
-- [OpenCore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/)
+- [OpenCore Vanilla Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ## Known Issues
 
@@ -39,4 +40,5 @@ Enabled:
 
 ## To Dos
 
-- Replace internal WiFi > DW1560
+- ~~USB Mapping~~
+- ~~Replace internal WiFi > DW1560~~
