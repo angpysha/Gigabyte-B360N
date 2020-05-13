@@ -560,9 +560,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -676,7 +676,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -688,13 +688,27 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>Memory testing utility</string>
+				<string>Check CFG Lock (MSR 0xE2 write protection)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
-				<string>memcheck</string>
+				<string>Verify MSR E2</string>
 				<key>Path</key>
-				<string>memcheck/memcheck.efi</string>
+				<string>VerifyMsrE2.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string>A modified grub allowing tweaking hidden BIOS settings.</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>Modified GRUB Shell</string>
+				<key>Path</key>
+				<string>modGRUBShell.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -775,17 +789,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>XXXXXXXXXXXXXXXXX</string>
 			<key>ROM</key>
-			<data></data>
+			<data>tC6Z0Va5</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac18,3</string>
+			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>XXXXXXXXXXXX</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

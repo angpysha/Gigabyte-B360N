@@ -30,6 +30,9 @@
 - Hyper-Threading
 - OS type: Windows 8.1/10 UEFI Mode
 
+## Misc
+- Patch CFG Lock (MSR Ex02): `setup_var 0x5C1 0x00`
+
 ## Guides & Links
 
 - [OpenCore Vanilla Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
@@ -40,5 +43,6 @@
 
 ## To Dos
 
-- ~~USB Mapping~~
-- ~~Replace internal WiFi > DW1560~~
+- [x] USB Mapping
+- [x] Replace internal WiFi > ~~DW1560~~ BCM94360CS2
+- [ ] Replace WiFi antenna
