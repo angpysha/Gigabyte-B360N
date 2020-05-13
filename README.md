@@ -14,8 +14,8 @@
 - **CPU:** Intel i5 9400
 - **GPU:** Sapphire RX 570 ITX 8GB
 - **RAM:** Corsair Vengeance LPX 16GB 2x8GB DDR4 2666Mhz
-- **STORAGE:** Adata XPG SX8200 PRO 512GB M.2 NVMe
-- **WIFI & BLUETOOTH:** BCM94360CS2 + NGFF M.2 Adapter
+- **Storage:** Adata XPG SX8200 PRO 512GB M.2 NVMe
+- **WiFi & Bluetooth:** BCM94360CS2 + NGFF M.2 Adapter
 
 ## BIOS Settings
 
