@@ -45,4 +45,4 @@
 
 - [x] USB Mapping
 - [x] Replace internal WiFi > ~~DW1560~~ BCM94360CS2
-- [ ] Replace WiFi antenna
+- [x] Replace WiFi antenna
